@@ -109,6 +109,6 @@ def main():
     mainScreenThread = Thread(target=mainScreen, daemon=True)
     mainScreenThread.start()
 
-if __name__ == '__main__':
+def run():
     beginScreen()
     mainloop()
