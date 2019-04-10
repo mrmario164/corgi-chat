@@ -1,4 +1,3 @@
-#hi
 from tkinter import *
 import mechanize
 from threading import Thread
@@ -110,6 +109,6 @@ def main():
     mainScreenThread = Thread(target=mainScreen, daemon=True)
     mainScreenThread.start()
 
-if __name__ == '__main__':
+def run():
     beginScreen()
     mainloop()
